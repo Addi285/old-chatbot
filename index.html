@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html Lang="en">
+    <head>
+        <title>document</title>
+    </head>
+    <body onload="startup();">
+        <button onclick="launchChatbot()" id="launchCahtbotButton">Launch</button>
+        <button onclick="dictateQuery()" id="dictateQueryButton">Dictate Query</button>
+        <button onclick="correctQuery()" id="correctQueryButton">Yes</button>
+        <button onclick="incorrectQuery()" id="incorrectQueryButton">No</button>
+        <h3 class="content"></h3>
+            <b id="debug" style ="color:Red;">Translation Accuracy:</b>
+            <i class="confidence"></i>
+        <script src="app.js"></script>
+
+    </body>
+</html>
